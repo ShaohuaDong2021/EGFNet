@@ -1,0 +1,32 @@
+{
+    "model_name": "EGFNet",
+
+    "inputs": "rgbd",
+
+    "dataset": "irseg",
+    "root": "/home/user/EGFNet/dataset/",
+    "n_classes": 9,
+    "id_unlabel": -1,
+    "brightness": 0.5,
+    "contrast": 0.5,
+    "saturation": 0.5,
+    "p": 0.5,
+    "scales_range": "0.5 2.0",
+    "crop_size": "480 640",
+    "eval_scales": "0.5 0.75 1.0 1.25 1.5 1.75",
+    "eval_flip": "true",
+
+
+    "ims_per_gpu": 4,
+    "num_workers": 4,
+
+    "lr_start": 5e-5,
+    "momentum": 0.9,
+    "weight_decay": 5e-4,
+    "lr_power": 0.9,
+    "epochs": 400,
+
+    "loss": "crossentropy",
+    "class_weight": "enet"
+}
+
