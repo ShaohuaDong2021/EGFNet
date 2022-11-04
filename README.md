@@ -10,7 +10,7 @@ Test maps: [百度网盘](https://pan.baidu.com/s/1sswoNZAnCDjnMdsdIdefHw)  提�
 
 # Citation
 @ARTICLE{<br>
-  author={Zhou, Wujie and Dong, Shaohua and Xu, Caie and Qian Yaguan},<br>
+  author={Wujie Zhou, Shaohua Dong, Caie, Xu and Yaguan, Qian},<br>
   booktitle={Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI-22)}, <br>
   title={Edge-aware guidance fusion network for RGB–thermal scene parsing}, <br>
   year={2022}}<br>
